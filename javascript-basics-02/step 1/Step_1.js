@@ -5,4 +5,4 @@ document.addEventListener("DOMContentLoaded", function () {
     image.addEventListener("mouseover", function () {
         image.src = newImageSrc;
     });
-});
+})
