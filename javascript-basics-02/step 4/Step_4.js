@@ -5,7 +5,8 @@ document.addEventListener("DOMContentLoaded", function () {
      button.addEventListener("click", function () {
         const confirmation = confirm("do you need to reset the form yes or no ");
         if (confirmation) {
-            inputs.forEach(input=>{input.value=""});}
+            inputs.forEach(input=>{input.value=""});
+        }
             
     });
 });
